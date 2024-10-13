@@ -13,7 +13,7 @@ import java.util.List;
 
 @Component
 public class Mapping { //dto entity waltth entity dto wltth convert karanna.  //anith layers athre data gnne dto wlin.
-
+    @Autowired
     private ModelMapper modelMapper;
 
     //matters of NoteEntity and DTO
